@@ -998,7 +998,7 @@ def send_message(message):
     """
     import anthropic
     client = anthropic.Anthropic(
-        api_key="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",
+        api_key="",
         default_headers={"anthropic-beta": "max-tokens-3-5-sonnet-2024-07-15"})
     
     response = client.messages.create(
